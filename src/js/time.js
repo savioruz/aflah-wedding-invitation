@@ -2,7 +2,7 @@ import { data } from "../assets/data/data.js";
 
 export const time = () => {
     const timeContainer = document.querySelector('.time');
-    const [marriageDiv, receptionDiv] = timeContainer.querySelectorAll('div div');
+    const [marriageDiv, receptionDiv, ngunduhMantuDiv] = timeContainer.querySelectorAll('div div');
     const mapLink = timeContainer.querySelector('a');
     const addressParagraph = timeContainer.querySelector('a + p');
 
@@ -14,6 +14,7 @@ export const time = () => {
 
     marriageDiv.innerHTML = createTimeListItem('Akad', data.time.marriage);
     receptionDiv.innerHTML = createTimeListItem('Resepsi', data.time.reception);
+    ngunduhMantuDiv.innerHTML = createTimeListItem('Ngunduh Mantu', data.time.ngunduh_mantu);
 
     mapLink.href = data.link.map;
     addressParagraph.textContent = data.time.address;
