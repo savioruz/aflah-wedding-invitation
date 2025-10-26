@@ -1,12 +1,14 @@
 :root {
-    --primary-font-color: '#212529';
+    --primary-font-color: #212529;
     --bg-color: #f8f9fa;
 
     --fontSize-heading-lg: 3rem;
     --fontSize-heading-base: 2.8rem;
     --fontSize-text-base: 1rem;
 
-    --sacramento: Sacramento, cursive;
+    /* New font variables: heading and body */
+    --heading-font: 'Playfair Display', serif;
+    --body-font: 'Poppins', 'Josefin Sans', sans-serif;
     --arabic: 'Noto Naskh Arabic', serif;
 
     --shadow-md: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -28,9 +30,14 @@ html {
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--body-font);
     color: var(--primary-font-color);
     overflow-y: hidden;
+}
+
+/* Headings should use the elegant serif */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
 }
 
 body.active {
