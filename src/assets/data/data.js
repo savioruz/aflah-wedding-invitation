@@ -4,16 +4,16 @@ export const data = {
             id: 1,
             name: 'Aflah Roid Fadhil',
             child: 'Putra pertama',
-            father: 'Bapak Sutarman',
-            mother: 'Ibu Rumini',
+            father: 'Sutarman',
+            mother: 'Rumini',
             image: './src/assets/images/cowo.png'
         },
         P: {
             id: 2,
             name: 'Lena Mariyanti',
             child: 'Putri kedua',
-            father: 'Bapak Ngadiyono',
-            mother: 'Ibu Turni',
+            father: 'Ngadiyono',
+            mother: 'Turni',
             image: './src/assets/images/cewe.png'
         },
 
