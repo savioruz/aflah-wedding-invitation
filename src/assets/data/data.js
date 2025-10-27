@@ -27,7 +27,7 @@ export const data = {
             date: '14',
             day: 'Minggu',
             hours: {
-                start: '08.00',
+                start: '07.00',
                 finish: 'Selesai'
             }
         },
@@ -51,13 +51,15 @@ export const data = {
                 finish: 'Selesai'
             }
         },
-        
-        address: 'Waru 002/003, Walitelon Selatan, Kab. Temanggung, Jawa Tengah'
+
+        address: 'Waru 002/003, Walitelon Selatan, Kab. Temanggung, Jawa Tengah',
+        address_ngunduh_mantu: 'Gondangwayang Ngisor, Kedu, Kab. Temanggung, Jawa Tengah'
     },
 
     link: {
         calendar: 'https://calendar.app.google/hXmPYm2ExpkCpW867',
-        map: 'https://maps.app.goo.gl/HbiQNuLcRDsaH4FU8',
+        map_reception: 'https://maps.app.goo.gl/HbiQNuLcRDsaH4FU8',
+        map_ngunduh_mantu: 'https://maps.app.goo.gl/DHVMsnQHtsoMu8xE8'
     },
 
     galeri: [

@@ -2,9 +2,11 @@ import { data } from "../assets/data/data.js";
 
 export const time = () => {
     const timeContainer = document.querySelector('.time');
-    const [marriageDiv, receptionDiv, ngunduhMantuDiv] = timeContainer.querySelectorAll('div div');
-    const mapLink = timeContainer.querySelector('a');
-    const addressParagraph = timeContainer.querySelector('a + p');
+    const eventDivs = timeContainer.querySelectorAll('div > div');
+    const [marriageDiv, receptionDiv, ngunduhMantuDiv] = eventDivs;
+    
+    const mapLinks = timeContainer.querySelectorAll('a');
+    const addressParagraphs = timeContainer.querySelectorAll('a + p');
 
     const createTimeListItem = (title, details) => (
         `<h3>${title}</h3>
@@ -16,6 +18,9 @@ export const time = () => {
     receptionDiv.innerHTML = createTimeListItem('Resepsi', data.time.reception);
     ngunduhMantuDiv.innerHTML = createTimeListItem('Ngunduh Mantu', data.time.ngunduh_mantu);
 
-    mapLink.href = data.link.map;
-    addressParagraph.textContent = data.time.address;
+    if (mapLinks[0]) mapLinks[0].href = data.link.map_reception;
+    if (mapLinks[1]) mapLinks[1].href = data.link.map_ngunduh_mantu;
+    
+    if (addressParagraphs[0]) addressParagraphs[0].textContent = data.time.address;
+    if (addressParagraphs[1]) addressParagraphs[1].textContent = data.time.address_ngunduh_mantu;
 };
