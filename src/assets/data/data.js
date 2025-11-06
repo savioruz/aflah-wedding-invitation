@@ -52,14 +52,14 @@ export const data = {
             }
         },
 
-        address: 'Waru 002/003, Walitelon Selatan, Kab. Temanggung, Jawa Tengah',
-        address_ngunduh_mantu: 'Gondangwayang Ngisor, Kedu, Kab. Temanggung, Jawa Tengah'
+        address: 'Weru 002/003, Walitelon Selatan, Kab. Temanggung, Jawa Tengah',
+        address_ngunduh_mantu: 'Banaran 001/003 Gondangwayang, Kedu, Kab. Temanggung, Jawa Tengah'
     },
 
     link: {
         calendar: 'https://calendar.app.google/hXmPYm2ExpkCpW867',
-        map_reception: 'https://maps.app.goo.gl/HbiQNuLcRDsaH4FU8',
-        map_ngunduh_mantu: 'https://maps.app.goo.gl/DHVMsnQHtsoMu8xE8'
+        map_reception: 'https://maps.app.goo.gl/TcB78kdxEpyL4Xty5',
+        map_ngunduh_mantu: 'https://maps.app.goo.gl/teWVYPjqe8RMXTMJA'
     },
 
     galeri: [
