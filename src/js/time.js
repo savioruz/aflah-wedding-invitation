@@ -14,9 +14,9 @@ export const time = () => {
          Pukul ${details.hours.start} WIB sd ${details.hours.finish}</p>`
     );
 
-    marriageDiv.innerHTML = createTimeListItem('Akad', data.time.marriage);
-    receptionDiv.innerHTML = createTimeListItem('Resepsi', data.time.reception);
-    ngunduhMantuDiv.innerHTML = createTimeListItem('Panggih Manten', data.time.ngunduh_mantu);
+    marriageDiv.innerHTML = createTimeListItem('Akad & Resepsi', data.time.marriage);
+    receptionDiv.innerHTML = createTimeListItem('Acara Panggih Manten', data.time.reception);
+    ngunduhMantuDiv.innerHTML = createTimeListItem('Ngunduh Mantu', data.time.ngunduh_mantu);
 
     if (mapLinks[0]) mapLinks[0].href = data.link.map_reception;
     if (mapLinks[1]) mapLinks[1].href = data.link.map_ngunduh_mantu;
