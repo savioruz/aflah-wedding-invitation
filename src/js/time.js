@@ -16,7 +16,7 @@ export const time = () => {
 
     marriageDiv.innerHTML = createTimeListItem('Akad', data.time.marriage);
     receptionDiv.innerHTML = createTimeListItem('Resepsi', data.time.reception);
-    ngunduhMantuDiv.innerHTML = createTimeListItem('Ngunduh Mantu', data.time.ngunduh_mantu);
+    ngunduhMantuDiv.innerHTML = createTimeListItem('Panggih Manten', data.time.ngunduh_mantu);
 
     if (mapLinks[0]) mapLinks[0].href = data.link.map_reception;
     if (mapLinks[1]) mapLinks[1].href = data.link.map_ngunduh_mantu;

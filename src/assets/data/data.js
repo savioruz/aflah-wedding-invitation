@@ -34,8 +34,8 @@ export const data = {
         reception: {
             year: '2025',
             month: 'Desember',
-            date: '15',
-            day: 'Senin',
+            date: '14',
+            day: 'Minggu',
             hours: {
                 start: '09.00',
                 finish: 'Selesai'
@@ -44,8 +44,8 @@ export const data = {
         ngunduh_mantu: {
             year: '2025',
             month: 'Desember',
-            date: '18',
-            day: 'Kamis',
+            date: '15',
+            day: 'Senin',
             hours: {
                 start: '08.00',
                 finish: 'Selesai'
