@@ -54,12 +54,14 @@ export const home = () => {
         }
     };
 
+    let intervalId;
+
     const startCountdown = (homeTime, timeData) => {
         const {year, month, date} = timeData.marriage;
         const endTime = new Date(`${String(year)}-${String(monthNameToNumber(month)).padStart(2, '0')}-${String(date).padStart(2, '0')}T00:00:00`);
 
         updateCountdown(endTime, homeTime);
-        setInterval(() => updateCountdown(endTime, homeTime), 1000);
+        intervalId = setInterval(() => updateCountdown(endTime, homeTime), 1000);
     };
 
     const initializeHome = () => {
